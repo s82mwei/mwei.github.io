@@ -1,8 +1,3 @@
-# Personal academic homepage
-
-A small, editable template for a mathematician, ready for GitHub Pages. It uses HTML, CSS, and a little JavaScript. There is no installation or build step.
-
-The profile layout, pale panels, restrained purple links, and light/dark option are inspired by [Haocheng Yuan's homepage](https://yyyyyhc.github.io/). The academic structure is inspired by [Philip Engel's homepage](https://philip-engel.github.io/): biography, research, publications and preprints with abstracts, teaching, talks, and a CV. The implementation is original. No photographs, biographies, or research claims have been copied. All bracketed entries are placeholders.
 
 ## 1. Understand the three parts
 
