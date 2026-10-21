@@ -140,8 +140,7 @@ Before sharing, read the page once on a phone, open each real publication/CV lin
 
 ## Reference links
 
-- [Visual reference: Haocheng Yuan](https://yyyyyhc.github.io/)
-- [Academic structure reference: Philip Engel](https://philip-engel.github.io/)
+
 - [GitHub Pages overview](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 - [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart)
 - [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
