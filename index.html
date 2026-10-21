@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: your name and a short research description. -->
+  <title>Mian Wei | Mathematics</title>
+  <meta name="description" content="Academic homepage of Mian Wei, a PhD student at University of Illinois Chicago. Research, publications, teaching, and talks.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-shell">
+      <!-- EDIT: replace YN and Your Name with your initials and name. -->
+      <a class="brand" href="./" aria-label="s82mwei, homepage">
+        <span class="brand-mark" aria-hidden="true">MW</span>
+        <span>Mian Wei</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="files/cv.pdf">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Use dark theme" aria-pressed="false" hidden>
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.8 13.1A8.9 8.9 0 0 1 10.9 3.2a9 9 0 1 0 9.9 9.9Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="profile" aria-labelledby="profile-name">
+      <!-- EDIT: put your portrait in assets/ and update src and alt. -->
+      <img class="portrait" src="assets/portrait.svg" alt="Placeholder for your portrait" width="160" height="160">
+      <div class="profile-copy">
+        <p class="eyebrow">Mathematics</p>
+        <h1 id="profile-name">Mian Wei <span class="native-name">魏勉</span></h1>
+        <p class="position">First-year PhD · Department of Mathematics, Statistics, and Computer Science <br>University of Illinois Chicago</p>
+        <address class="contact">
+          <a href="mailto:mwei23@uic.edu">mwei23@uic.edu</a>
+          <span class="contact-divider" aria-hidden="true">/</span>
+          <span>Office: SEO, 721</span>
+        </address>
+        <div class="profile-links" hidden>
+          <a href="files/cv.pdf">Curriculum vitae <span aria-hidden="true">↗</span></a>
+          <a href="#publications">Publications</a>
+          <!-- OPTIONAL: add your real profile URL before removing the comment.
+          <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a>
+          <a href="https://orcid.org/YOUR_ORCID">ORCID</a>
+          <a href="https://github.com/YOUR_USERNAME">GitHub</a>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <div class="intro-panel">
+        <!-- EDIT: keep the biography short and written in your own voice. -->
+        <p>I am a first-year PhD in mathematics at University of Illinois Chicago. Previously, I received my M.Sc. from University of Bonn in 2026.</p>
+        <p>My research is in Hodge theory, especially degeneration of (log) Calabi-Yau varieties. </p>
+              </div>
+    </section>
+
+    <section id="research" class="content-section" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <p>TBD.</p>
+      <p class="research-interests"><strong>Interests</strong><span>Algebraic Geometry</span><span>Hodge theory in the Degeneration of Calabi-Yau Varieties</span><span>Mirror Symmetry</span></p>
+
+      <div id="publications" class="subsection-heading">
+        <h3>Publications &amp; preprints</h3>
+        <p>Most recent first</p>
+      </div>
+
+      <!-- EDIT: copy one complete <li class="paper"> ... </li> for each paper.
+           Replace the bracketed text and add real links. See README.md for examples.
+           The entries below are placeholders, not actual publications. -->
+      <ul class="publication-list">
+        <li class="paper">
+          <article>
+            <h4>[Title of your most recent preprint]</h4>
+            <p class="authors">[Your Name] and [Coauthor Name]</p>
+            <p class="publication-meta">Preprint <span aria-hidden="true">·</span> [Year]</p>
+            <!-- OPTIONAL: replace with real URLs before uncommenting.
+            <p class="paper-links"><a href="https://arxiv.org/abs/YOUR_ID">arXiv</a><a href="files/paper.pdf">PDF</a></p>
+            -->
+            <details>
+              <summary>Abstract</summary>
+              <div class="abstract"><p>[Describe the problem, state your main result, and explain its significance. Two to four sentences usually suffice for a homepage abstract.]</p></div>
+            </details>
+          </article>
+        </li>
+              </ul>
+    </section>
+
+    <section id="teaching" class="content-section" aria-labelledby="teaching-title" hidden>
+      <h2 id="teaching-title">Teaching</h2>
+      <div id="current-course" class="course-row">
+        <p class="row-label">Current<br><span>[Term, year]</span></p>
+        <div>
+          <h3>[Course number: Course title]</h3>
+          <p>[University] · [Instructor / Teaching assistant]</p>
+          <p class="course-detail">Office hours: [Day, time, and location]</p>
+          <!-- OPTIONAL: upload your syllabus, then uncomment and match its filename.
+          <p><a href="files/syllabus.pdf">Syllabus (PDF)</a></p>
+          -->
+        </div>
+      </div>
+      <div class="course-row">
+        <p class="row-label">Previous<br><span>[Term, year]</span></p>
+        <div>
+          <h3>[Previous course number: Course title]</h3>
+          <p>[University] · [Your role]</p>
+        </div>
+      </div>
+      <details class="teaching-notes">
+        <summary>Lecture notes &amp; reading courses</summary>
+        <div class="abstract"><p>[List any notes or reading courses you would like to share. Replace this text with links to your own PDFs, or remove this block.]</p></div>
+      </details>
+    </section>
+
+    <section id="talks" class="content-section" aria-labelledby="talks-title" hidden>
+      <h2 id="talks-title">Selected talks</h2>
+      <ul class="talk-list">
+        <li><span class="talk-date">[Month Year]</span><div><h3>[Title of your talk]</h3><p>[Seminar or conference], [Institution / City]</p></div></li>
+        <li><span class="talk-date">[Month Year]</span><div><h3>[Title of another talk]</h3><p>[Seminar or conference], [Institution / City]</p></div></li>
+      </ul>
+    </section>
+
+    <section id="elsewhere" class="content-section elsewhere" aria-labelledby="elsewhere-title">
+      <h2 id="elsewhere-title">Beyond mathematics</h2>
+      <p>[An optional sentence about your interests outside mathematics, or a link to a project you enjoy. Delete this section if you prefer a strictly academic page.]</p>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span data-current-year>2026</span> Your Name</p>
+      <p class="template-note">Template preview · Bracketed text is placeholder content.</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </main>
+</body>
+</html>
